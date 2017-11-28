@@ -1,0 +1,170 @@
+.page {
+    margin-top: 20px;
+    display: flex;
+    .left-nav {
+        background: url(../assets/images/contact.jpg);
+        height: 31px;
+        font-size: 16px;
+        line-height: 31px;
+        color: #ffffff;
+        padding-left: 20px;
+        p {
+          margin: 5px 0;
+        }
+    }
+    .details {
+        font-size: 16px;
+        font-family: "宋体";
+        p {
+          margin: 10px 0;
+        }
+    }
+    .right-nav {
+        height: 38px;
+        line-height: 38px;
+        .title {
+          font-size: 16px;
+          font-weight: bold;
+          color: #0174db;
+  
+        }
+        border-bottom: 1px dashed #dbdbdb;
+    }
+}
+
+.introduce {
+    .description {
+        .title {
+          font-size: 16px;
+          font-weight: bold;
+          color: #000000;
+          border-bottom: 1px dashed #dbdbdb;
+          text-align: center;
+          margin: 30px 0;
+        }
+        p {
+          margin: 20px 0;
+          text-indent: 2em;
+          line-height: 2em;
+        }
+    }
+}
+
+.contact {
+    height: 520px;
+    iframe {
+        height: 100%;
+        width: 100%;
+        border: 0;
+    }
+}
+
+.product {
+    .product-list {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .item {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        height: 170px;
+        text-align: center;
+        margin: 20px 10px;
+        img {
+            border: 1px solid #cccccc;
+            width: 100%;
+            height: 150px;
+        }
+    }
+}
+
+.home {
+    .left-part {
+        box-shadow: 2px 2px 5px #cccccc;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        font-size: 14px;
+        .title {
+            color: #003087;
+            font-weight: bold;
+            width: 100%;
+            display: inline-block;
+            height: 35px;
+            line-height: 35px;
+            padding-left: 30px;
+            background: url(../assets/images/hp-left-part-header.jpg) no-repeat;
+        }
+        .body {
+            padding: 0 5px 0 15px;
+            p {
+                margin: 10px 0;
+            }
+        }
+    }
+    .right-part {
+        margin-bottom: 10px;
+        .title {
+            line-height: 38px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: bold;
+            background: url(../assets/images/hp-right-part-header.jpg) no-repeat;
+            span {
+                display: inline-block;
+                height: 38px;
+                width: 100px;
+                text-align: center;
+            }
+        }
+        .body {
+            border-left: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+            border-bottom: 1px solid #cccccc;
+            width: 100%;
+            p {
+                padding: 10px;
+                text-indent: 2em;
+                line-height: 2em;
+            }
+        }
+    }
+    .carousel {
+        .item {
+            height: 200px;
+            text-align: center;
+            .item-wrapper {
+                margin: 5px;
+                img {
+                    border: 1px solid #cccccc;
+                    width: 100%;
+                    height: 150px;
+                }
+                .intro {
+                    margin-top: 10px;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        flex-direction: column;
+        .left-nav {
+            display: none;
+        }
+    }
+    .product {
+        .item {
+            width: 40%;
+            p {
+                height: 36px;
+            }
+        }
+    }
+    .home .left-part .title {
+        background: none;
+    }
+}

@@ -1,0 +1,41 @@
+.header {
+    position: relative;
+    background: url(../assets/images/header-bg.jpg);
+    height: 460px;
+    .wrapper {
+        width: 1000px;
+        background: url(../assets/images/wrapper-bg.jpg);
+        margin: 0 auto;
+        .logo {
+            img {
+                height: 80px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        .wrapper {
+            width: 100%;
+            .banner {
+                img {
+                    width: 100%
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 350px;
+        .wrapper {
+            .logo {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
