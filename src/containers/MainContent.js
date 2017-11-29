@@ -1,6 +1,5 @@
 import React from 'react';
 import classNames from 'classnames';
-import _ from 'lodash';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import IntroducePage from './pages/IntroducePage';
@@ -60,7 +59,7 @@ class MainContent extends React.Component {
 
     renderPage() {
         const activedHash = this.getActivedHash();
-        const menu = _.find(menus, ({ hash }) => hash === activedHash);
+        const menu = menus.find(({ hash }) => hash === activedHash);
         if (menu) {
             return <menu.page />;
         }

@@ -2,7 +2,7 @@
     margin-top: 20px;
     display: flex;
     .left-nav {
-        background: url(../assets/images/contact.jpg);
+        background: url(/assets/images/contact.jpg);
         height: 31px;
         font-size: 16px;
         line-height: 31px;
@@ -93,7 +93,7 @@
             height: 35px;
             line-height: 35px;
             padding-left: 30px;
-            background: url(../assets/images/hp-left-part-header.jpg) no-repeat;
+            background: url(/assets/images/hp-left-part-header.jpg) no-repeat;
         }
         .body {
             padding: 0 5px 0 15px;
@@ -109,7 +109,7 @@
             color: #ffffff;
             font-size: 14px;
             font-weight: bold;
-            background: url(../assets/images/hp-right-part-header.jpg) no-repeat;
+            background: url(/assets/images/hp-right-part-header.jpg) no-repeat;
             span {
                 display: inline-block;
                 height: 38px;

@@ -1,19 +1,15 @@
 import React from 'react';
-import logo from '../assets/images/logo.jpg';
-import banner from '../assets/images/zb-banner.jpg';
 
 class Header extends React.Component {
-
     render() {
-        const { children } = this.props;
         return (
             <div className="header">
                 <div className="wrapper">
                     <div className="logo">
-                        <img src={logo} />
+                        <img src='/assets/images/logo.jpg' />
                     </div>
                     <div className="banner">
-                        <img src={banner} />
+                        <img src='/assets/images/zb-banner.jpg' />
                     </div>
                 </div>
             </div>
