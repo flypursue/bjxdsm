@@ -80,6 +80,7 @@
 }
 
 .home {
+
     .left-part {
         box-shadow: 0 2px 2px #cccccc;
         border: 1px solid #ccc;
@@ -100,6 +101,9 @@
             p {
                 margin: 10px 0;
             }
+        }
+        &.appearance .body {
+            padding: 0;
         }
     }
     .right-part {

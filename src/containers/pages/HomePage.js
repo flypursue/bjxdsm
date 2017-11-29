@@ -2,18 +2,19 @@ import React from 'react';
 import Slider from './components/Slider';
 import products from '../../common/constant/products';
 import projects from '../../common/constant/projects';
+import appearances from '../../common/constant/appearances';
 
 export default class HomePage extends React.Component {
     render() {
         return (
             <div className="page home">
                 <div className="left">
-                    <div className="left-part">
+                    <div className="left-part appearance">
                         <div className="title">
-                            <span>公司外貌</span>
+                            <span>公司风貌</span>
                         </div>
                         <div className="body">
-                            12312321312
+                            <Slider items={appearances} isSingle={true} />
                         </div>
                     </div>
                     <div className="left-part">
