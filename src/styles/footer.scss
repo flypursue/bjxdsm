@@ -18,10 +18,10 @@ footer {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .footer {
     width: 100%;
     flex-direction: column;
-    height: 160px;
+    height: 180px;
   }
 }

@@ -80,7 +80,6 @@
 }
 
 .home {
-
     .left-part {
         box-shadow: 0 2px 2px #cccccc;
         border: 1px solid #ccc;
@@ -154,6 +153,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .contact {
+        height: 700px;
+    }
     .page {
         flex-direction: column;
         .left-nav {
