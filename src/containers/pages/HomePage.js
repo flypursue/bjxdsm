@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from './components/Slider';
 import products from '../../common/constant/products';
+import projects from '../../common/constant/projects';
 
 export default class HomePage extends React.Component {
     render() {
@@ -43,6 +44,14 @@ export default class HomePage extends React.Component {
                         </div>
                         <div className="body">
                             <Slider items={products} />
+                        </div>
+                    </div>
+                    <div className="right-part">
+                        <div className="title">
+                            <span>工程业绩</span>
+                        </div>
+                        <div className="body">
+                            <Slider items={projects} />
                         </div>
                     </div>
                 </div>

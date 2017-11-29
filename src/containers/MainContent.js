@@ -4,6 +4,7 @@ import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import IntroducePage from './pages/IntroducePage';
 import ProductPage from './pages/ProductPage';
+import ProjectPage from './pages/ProjectPage';
 
 const menus = [
     { 
@@ -22,8 +23,13 @@ const menus = [
         page: IntroducePage
     },
     { 
-        name: '联系我们',
+        name: '工程业绩',
         hash: '#3',
+        page: ProjectPage
+    },
+    {
+        name: '联系我们',
+        hash: '#4',
         page: ContactPage
     }
 ];
