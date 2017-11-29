@@ -1,5 +1,4 @@
 import React from 'react';
-import HPLeftPart from './components/HPLeftPart';
 import Slider from './components/Slider';
 import products from '../../common/constant/products';
 

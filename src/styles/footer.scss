@@ -1,4 +1,8 @@
+footer {
+  background-color: #eaeaea;
+}
 .footer {
+  border-top: 5px solid #11559d;
   width: 1000px;
   height: 100px;
   margin: 0 auto;
@@ -6,7 +10,6 @@
   align-items: center;
   font-size: 12px;
   color: #11559d;
-  background-color: #eaeaea;
   .right {
     flex: 1;
     .copyright {
